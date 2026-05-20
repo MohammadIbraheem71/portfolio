@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Ibraheem - Developer Portfolio</title>
+    <!-- Google Fonts: Press Start 2P for headings, VT323 for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero">
+        <div class="hero-content">
+            <h1>Mohammad Ibraheem</h1>
+            <p class="tagline">Web Dev | Computer Vision | AI-Integrated Apps</p>
+            <div class="cursor-blink">|</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>FAST NUCES CS undergrad. Developer with background in computer vision, AI-integrated apps, and web development. Fluent in: C++, Python, Node.js, React, Express, Lua. Interests span game dev, AI, and web dev.</p>
+            <div class="interest-badges">
+                <span class="badge interest">Computer Vision</span>
+                <span class="badge interest">AI</span>
+                <span class="badge interest">Web Dev</span>
+                <span class="badge interest">Game Dev</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Systems</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Lua</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI/ML</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Computer Vision</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Web</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Express</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <!-- Card 1 - Lychee Color -->
+            <div class="project-card">
+                <h3 class="project-title">Lychee Color</h3>
+                <p class="project-description">A grayscale image colorization tool that uses a trained deep learning model to pseudocolor images. Features a desktop GUI with side-by-side comparison of input, basic, and enhanced colorized outputs.</p>
+                <div class="project-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Keras</span>
+                    <span class="tech-tag">OpenCV</span>
+                    <span class="tech-tag">PySide6</span>
+                    <span class="tech-tag">pyQT</span>
+                    <span class="tech-tag">NumPy</span>
+                    <span class="tech-tag">Matplotlib</span>
+                </div>
+                <div class="project-footer">
+                    <span class="category-badge ai">AI / Computer Vision</span>
+                    <a href="https://github.com/MohammadIbraheem71/Lychee-color" target="_blank" class="github-link">GitHub</a>
+                </div>
+            </div>
+            <!-- Card 2 - PhotoEz -->
+            <div class="project-card">
+                <h3 class="project-title">PhotoEz</h3>
+                <p class="project-description">A photo sharing and editing application with a Node.js/Express backend API and a Python desktop frontend built with PyQt. Supports image filtering, editing, and sharing.</p>
+                <div class="project-tags">
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">PyQt</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">SQLite</span>
+                </div>
+                <div class="project-footer">
+                    <span class="category-badge web-desktop">Web / Desktop App</span>
+                    <a href="https://github.com/MohammadIbraheem71/Image_filter_applicator" target="_blank" class="github-link">GitHub</a>
+                </div>
+            </div>
+            <!-- Card 3 - BitBat -->
+            <div class="project-card">
+                <h3 class="project-title">BitBat</h3>
+                <p class="project-description">A Flappy Bird clone written entirely in x86 Assembly as a 4th semester Computer Organization and Assembly Language (COAL) project. Runs on DOS emulator.</p>
+                <div class="project-tags">
+                    <span class="tech-tag">x86 Assembly</span>
+                    <span class="tech-tag">COAL</span>
+                    <span class="tech-tag">DOS</span>
+                </div>
+                <div class="project-footer">
+                    <span class="category-badge game">Game Dev</span>
+                    <a href="https://github.com/MohammadIbraheem71/3rd-sem-coal-prj" target="_blank" class="github-link">GitHub</a>
+                </div>
+            </div>
+            <!-- Card 4 - AiCo -->
+            <div class="project-card">
+                <h3 class="project-title">AiCo</h3>
+                <p class="project-description">An AI-powered smart classroom platform - a collaborative university project. Features per-course RAG chatbots so students can query uploaded lecture material, plus assignments, plagiarism detection, and a Pomodoro study timer.</p>
+                <div class="project-tags">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">Pinecone</span>
+                    <span class="tech-tag">Hugging Face</span>
+                    <span class="tech-tag">OpenRouter</span>
+                    <span class="tech-tag">Azure Blob</span>
+                </div>
+                <div class="project-footer">
+                    <span class="category-badge ai-web">AI / Web</span>
+                    <span class="status-badge collaborator">Team Project</span>
+                    <a href="https://github.com/SheikhFareed99/Smart_Classroom" target="_blank" class="github-link">GitHub</a>
+                </div>
+            </div>
+            <!-- Card 5 - Prez -->
+            <div class="project-card">
+                <h3 class="project-title">Prez</h3>
+                <p class="project-description">In progress. A CLI-based presentation generator that converts structured JSON decks into HTML slides and PPTX files. Supports custom elements, SVG utilities, and text wrapping.</p>
+                <div class="project-tags">
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">pptxgenjs</span>
+                </div>
+                <div class="project-footer">
+                    <span class="category-badge ai-web">AI / Web</span>
+                    <span class="status-badge in-progress">In Progress</span>
+                    <a href="https://github.com/MohammadIbraheem71/prez" target="_blank" class="github-link">GitHub</a>
+                </div>
+            </div>
+            <!-- Card 6 - See more on GitHub -->
+            <div class="project-card project-card-ghost">
+                <div class="ghost-content">
+                    <div class="ghost-icon">_</div>
+                    <p>More projects on GitHub</p>
+                    <a href="https://github.com/MohammadIbraheem71" target="_blank" class="github-link-ghost">Go to GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+            <p><a href="mailto:ibraheemmuhamma71@gmail.com" class="contact-link">ibraheemmuhamma71@gmail.com</a></p>
+            <p><a href="https://github.com/MohammadIbraheem71" target="_blank" class="contact-link">GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/mohammad-ibraheem-638906331/" target="_blank" class="contact-link">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
